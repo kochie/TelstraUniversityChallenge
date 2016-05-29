@@ -1,8 +1,10 @@
-html, body {
-    height: 100%;
-    margin: 0;
+
+#map {
+    height: 95vh;
     padding: 0;
 }
-#map {
-    height: 100%;
+
+#mapWrapper{
+    padding: 0;
+    display: block;
 }

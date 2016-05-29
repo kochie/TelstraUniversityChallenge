@@ -26,6 +26,10 @@ Route::get('/map', function(){
     return view('map');
 });
 
+Route::get('/maptest', function(){
+    return view('maptest');
+});
+
 /**
  * Add New Task
  */
