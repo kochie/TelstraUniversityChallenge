@@ -30,6 +30,12 @@ Route::get('/maptest', function(){
     return view('maptest');
 });
 
+Route::get('/about', function(){
+    return view('about');
+});
+
+Route::resource('test', 'test');
+
 /**
  * Add New Task
  */
