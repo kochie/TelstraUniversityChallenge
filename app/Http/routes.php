@@ -12,7 +12,7 @@
 */
 
 
-use App\Task;
+use App\bin;
 use Illuminate\Http\Request;
 
 /**
@@ -36,25 +36,23 @@ Route::get('/about', function(){
 
 
 Route::get('/list', function(){
-    return view('list');
+    return redirect()->action('BinsController@index');
 });
 
 Route::resource('bins','BinsController');
 
-
-/**
- * Add New Task
- */
-Route::post('/task', function (Request $request) {
-    //
+Route::get('/excel', function(){
+    $bin = bin::select('id', 'lat', 'lng', 'bin_id', 'time')->get();
+    Excel::create('bins', function($excel) use($bin) {
+        $excel->sheet('Bins', function($sheet) use($bin) {
+            $sheet->fromArray($bin);
+        });
+    })->export('xls');
 });
 
-/**
- * Delete Task
- */
-Route::delete('/task/{task}', function (Task $task) {
-    //
-});
+
+
+
 
 Route::auth();
 

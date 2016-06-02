@@ -20,7 +20,8 @@ function initMap() {
     var markerList = [];
     var heatList = [];
     var heatmap = new google.maps.visualization.HeatmapLayer({
-        map: map
+        map: map,
+        radius: 20
     });
     updateHeatMap(heatmap);
     getLocation(function(pos){
