@@ -34,7 +34,13 @@ Route::get('/about', function(){
     return view('about');
 });
 
-Route::resource('test', 'test');
+
+Route::get('/list', function(){
+    return view('list');
+});
+
+Route::resource('bins','BinsController');
+
 
 /**
  * Add New Task
@@ -49,3 +55,7 @@ Route::post('/task', function (Request $request) {
 Route::delete('/task/{task}', function (Task $task) {
     //
 });
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

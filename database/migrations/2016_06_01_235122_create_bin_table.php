@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTasksTable extends Migration
+class CreateBinTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,12 @@ class CreateTasksTable extends Migration
      */
     public function up()
     {
-        Schema::create('tasks', function (Blueprint $table) {
+        Schema::create('bins', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->index();
-            $table->string('name');
+            $table->double('lat', 17, 14);
+            $table->double('lng', 17, 14);
+            $table->integer('bin_id');
+            $table->dateTime('time');
             $table->timestamps();
         });
     }
@@ -27,6 +29,6 @@ class CreateTasksTable extends Migration
      */
     public function down()
     {
-        Schema::drop('tasks');
+        Schema::drop('bins');
     }
 }

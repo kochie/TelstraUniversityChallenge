@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="488e0d2a-5151-484e-92bb-3aea00af45ed" name="Default" comment="initial test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_05_26_013258_create_tasks_table.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/bins/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/list.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_05_29_140737_create_tasks_table.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/googlemap.css" afterPath="$PROJECT_DIR$/public/assets/css/googlemap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/googlemap.js" afterPath="$PROJECT_DIR$/public/assets/js/googlemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/map.blade.php" afterPath="$PROJECT_DIR$/resources/views/map.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="TelstraUniversityChallenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,43 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="46" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#40#85#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="450">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
                 <element signature="e#395#408#0#PHP" expanded="true" />
@@ -73,43 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googlemap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/googlemap.css">
+      <file leaf-file-name="bin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/navbar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googlemap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/googlemap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,8 +66,18 @@
       <file leaf-file-name="map.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/map.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="80" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="80" />
+            <state relative-caret-position="425">
+              <caret line="25" column="139" selection-start-line="25" selection-start-column="139" selection-end-line="25" selection-end-column="139" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googlemap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/googlemap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -130,8 +88,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -146,16 +104,37 @@
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/task.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/common/errors.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/map.blade.php" />
-        <option value="$PROJECT_DIR$/public/assets/css/googlemap.css" />
-        <option value="$PROJECT_DIR$/public/assets/js/googlemap.js" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_29_140737_create_tasks_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/about.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/list.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/googlemap.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/binData.php" />
+        <option value="$PROJECT_DIR$/resources/views/template.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/binDatas.css" />
+        <option value="$PROJECT_DIR$/resources/views/bindatas/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_01_150820_create_bindata.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/binDataController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_01_151853_create_cars_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/cars/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CarController.php" />
+        <option value="$PROJECT_DIR$/resources/views/cars/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/bin.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/resources/views/bins/create.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_01_235122_create_bin_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BinsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/map.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/googlemap.js" />
       </list>
     </option>
   </component>
@@ -207,8 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,11 +216,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,127 +230,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,28 +267,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TelstraUniversityChallenge" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,6 +281,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Robert\Documents\Projects\TelstraUniversityChallenge\resources\views\layouts" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.server.php">
     <configuration default="false" name="server.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TelstraUniversityChallenge/server.php">
@@ -508,6 +350,8 @@
       <workItem from="1464271316692" duration="3436000" />
       <workItem from="1464493161479" duration="21883000" />
       <workItem from="1464737795970" duration="2114000" />
+      <workItem from="1464767449768" duration="37217000" />
+      <workItem from="1464861507143" duration="14903000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1464188718789</created>
@@ -520,19 +364,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31473000" />
+    <option name="totallyTimeSpent" value="83593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -589,197 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-            <element signature="e#395#408#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tasks.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php" />
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/task.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/tasks.blade.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,66 +449,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_26_013258_create_tasks_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_29_140737_create_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_29_140737_create_tasks_table.php" />
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
           <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="46" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-            <element signature="e#395#408#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/googlemap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,48 +468,230 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Test.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/binData.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookController.php" />
+    <entry file="file://$PROJECT_DIR$/app/binData.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/binDatas.css" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_01_150820_create_bindata.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/binDataController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/bindatas/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_01_151853_create_cars_table.php" />
+    <entry file="file://$PROJECT_DIR$/app/Car.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/cars/show.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/cars/create.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CarController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/googlemap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="51" selection-start-line="148" selection-start-column="51" selection-end-line="148" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bins/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+            <element signature="e#395#408#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_01_235122_create_bin_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BinsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="e#40#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/map.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="425">
+          <caret line="25" column="139" selection-start-line="25" selection-start-column="139" selection-end-line="25" selection-end-column="139" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/googlemap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding />
         </state>
       </provider>

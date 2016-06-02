@@ -1,5 +1,11 @@
 <style>
     body { padding-top: 5vh; }
+
+
+    .fa-btn {
+        margin-right: 6px;
+    }
+
 </style>
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="height: 5vh;">
     <div class="container-fluid">
@@ -10,7 +16,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">BinMonsterz</a>
+            <a class="navbar-brand" href="/">BinMonsters</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -20,7 +26,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bins <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/map">Map</a></li>
+                        <li><a href="{{url('/map')}}">Map</a></li>
                         <li><a href="/list">List</a></li>
                         <li><a href="/excel">Excel</a></li>
                         <!--<li role="separator" class="divider"></li>
@@ -30,11 +36,23 @@
                     </ul>
                 </li>
             </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>-->
+            <ul class="nav navbar-nav navbar-right">
+                <!-- Authentication Links -->
+                @if (Auth::guest())
+                    <li><a href="{{ url('/login') }}">Login</a></li>
+                    <li><a href="{{ url('/register') }}">Register</a></li>
+                @else
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                @endif
+            </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
