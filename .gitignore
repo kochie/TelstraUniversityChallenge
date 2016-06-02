@@ -7,6 +7,7 @@ Homestead.json
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+/public/assets/video/
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/

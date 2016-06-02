@@ -21,7 +21,8 @@ function initMap() {
     var heatList = [];
     var heatmap = new google.maps.visualization.HeatmapLayer({
         map: map,
-        radius: 20
+        radius: 20,
+        opacity: 1
     });
     updateHeatMap(heatmap);
     getLocation(function(pos){
