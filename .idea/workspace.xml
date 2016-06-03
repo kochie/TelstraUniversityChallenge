@@ -85,8 +85,8 @@
       <file leaf-file-name="2016_06_01_235122_create_bin_table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_01_235122_create_bin_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -429,7 +429,7 @@
       <workItem from="1464493161479" duration="21883000" />
       <workItem from="1464737795970" duration="2114000" />
       <workItem from="1464767449768" duration="37217000" />
-      <workItem from="1464861507143" duration="29416000" />
+      <workItem from="1464861507143" duration="29530000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1464188718789</created>
@@ -442,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98106000" />
+    <option name="totallyTimeSpent" value="98220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -794,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_01_235122_create_bin_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
