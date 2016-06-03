@@ -19,7 +19,7 @@ class CreateBinTable extends Migration
             $table->integer('bin_id');
             $table->dateTime('time')->nullable();
             $table->timestamps();
-            $table->json('data')->nullable();
+            //$table->json('data')->nullable();
         });
     }
 
