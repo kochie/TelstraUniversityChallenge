@@ -10,6 +10,7 @@ class bin extends Model
         'lat',
         'lng',
         'bin_id',
-        'time'
+        'time',
+        'data'
     ];
 }
