@@ -17,8 +17,9 @@ class CreateBinTable extends Migration
             $table->double('lat', 17, 14);
             $table->double('lng', 17, 14);
             $table->integer('bin_id');
-            $table->dateTime('time');
+            $table->dateTime('time')->nullable();
             $table->timestamps();
+            $table->string('data')->nullable();
         });
     }
 

@@ -46,7 +46,7 @@ Route::get('/list', function(){
 Route::resource('bins','BinsController');
 
 Route::get('/excel', function(){
-    $bin = bin::select('id', 'lat', 'lng', 'bin_id', 'time')->get();
+    $bin = bin::select('id', 'lat', 'lng', 'bin_id', 'time', 'data')->get();
     Excel::create('bins', function($excel) use($bin) {
         $excel->sheet('Bins', function($sheet) use($bin) {
             $sheet->fromArray($bin);
