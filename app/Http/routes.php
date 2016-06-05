@@ -43,10 +43,11 @@ Route::get('/list', function(){
     return redirect()->action('BinsController@index');
 });
 
+Route::get('bins/team/{id}', 'BinsController@teamSelect');
 Route::resource('bins','BinsController');
 
 Route::get('/excel', function(){
-    $bin = bin::select('id', 'lat', 'lng', 'bin_id', 'time', 'data')->get();
+    $bin = bin::select('id', 'lat', 'lng', 'bin_id', 'time', 'data', 'team')->get();
     Excel::create('bins', function($excel) use($bin) {
         $excel->sheet('Bins', function($sheet) use($bin) {
             $sheet->fromArray($bin);

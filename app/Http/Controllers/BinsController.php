@@ -15,6 +15,19 @@ class BinsController extends Controller
         return bin::all();
     }
 
+    public function teamSelect($id)
+    {
+        if ($id == 0){
+            return bin::all();
+        }
+        else{
+            return bin::where(function($query) use($id){
+                $query->where('team','=',  $id );
+            }) ->get();
+        }
+
+    }
+
     public function show($id)
     {
         return bin::findOrFail($id);

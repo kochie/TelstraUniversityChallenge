@@ -20,6 +20,7 @@ class CreateBinTable extends Migration
             $table->dateTime('time')->nullable();
             $table->timestamps();
             $table->string('data')->nullable();
+            $table->integer('team')->nullable();
         });
     }
 

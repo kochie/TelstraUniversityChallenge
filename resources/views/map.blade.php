@@ -17,6 +17,13 @@
         <input id="clearButton" class="controls button" type="button" value="Clear Map">
         <input id="uploadButton" class="controls button" type="button" value="Upload Markers">
         <input id="heatmapButton" class="controls button" type="button" value="Toggle Heatmap">
+        <select id="teamSelect" class="controls button" title="teamSelect">
+            <option value="0">All Teams</option>
+            <option value="1">Team 1</option>
+            <option value="2">Team 2</option>
+            <option value="3">Team 3</option>
+            <option value="4">Team 4</option>
+        </select>
 
         <script type="text/javascript">
             var _token = '{{ csrf_token() }}';

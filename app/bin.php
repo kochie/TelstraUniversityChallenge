@@ -11,6 +11,7 @@ class bin extends Model
         'lng',
         'bin_id',
         'time',
-        'data'
+        'data',
+        'team'
     ];
 }

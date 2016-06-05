@@ -18,7 +18,6 @@ function initMap() {
         map: map
     });
     var markerList = [];
-    var heatList = [];
     var heatmap = new google.maps.visualization.HeatmapLayer({
         map: map,
         radius: 20,
@@ -50,32 +49,45 @@ function buildAutocomplete(map, homeMarker){
 }
 
 function setClickEvent(map, markerList, heatmap){
+    var teamSelect = document.getElementById('teamSelect');
+    var clearButton = document.getElementById('clearButton');
+    var uploadButton = document.getElementById('uploadButton');
+    var heatmapButton = document.getElementById('heatmapButton');
+
     map.addListener('click', function(event) {
         addMarker(event.latLng, markerList, map);
     });
-    var clearButton = document.getElementById('clearButton');
+
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(clearButton);
     clearButton.addEventListener('click', function(){
         markerList = deleteMarkers(markerList);
     });
-    var uploadButton = document.getElementById('uploadButton');
+
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(uploadButton);
     uploadButton.addEventListener('click', function(){
-        [markerList, heatmap] = uploadMarkers(markerList, heatmap);
+        [markerList, heatmap] = uploadMarkers(markerList, heatmap, teamSelect.value);
     });
-    var heatmapButton = document.getElementById('heatmapButton');
+
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(heatmapButton);
     heatmapButton.addEventListener('click', function(){
         heatmap.setMap(heatmap.getMap() ? null : map);
     });
 
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(teamSelect);
+    teamSelect.addEventListener('change', function(){
+        [markerList, heatmap] = uploadMarkers([], heatmap, teamSelect.value);
+    });
+
 }
 
-function updateHeatMap(heatmap){
+function updateHeatMap(heatmap, teamSelect){
     $.ajax({
         type: "GET",
-        url: "/bins",
+        url: "/bins/team/" + teamSelect,
         contentType: 'application/json',
+        headers:{
+          'team': teamSelect  
+        },
         success: function(response){
             var heatList = [];
             for (var i=0; i<response.length; i++){
@@ -86,7 +98,7 @@ function updateHeatMap(heatmap){
     });
 }
 
-function uploadMarkers(markerList, heatmap){
+function uploadMarkers(markerList, heatmap, teamSelect){
     var list = [];
     for (var i = 0; i < markerList.length; i++) {
         console.log(markerList[i].getPosition().lat(), markerList[i].getPosition().lng());
@@ -94,7 +106,8 @@ function uploadMarkers(markerList, heatmap){
             lat: markerList[i].getPosition().lat(),
             lng: markerList[i].getPosition().lng(),
             bin_id: 1,
-            time: new Date()
+            time: new Date(),
+            team: teamSelect
         };
         list.push(data);
     }
@@ -104,7 +117,7 @@ function uploadMarkers(markerList, heatmap){
         contentType: 'application/json',
         data: JSON.stringify({points: list}),
         success: function(){
-            updateHeatMap(heatmap);
+            updateHeatMap(heatmap, teamSelect);
         }
     });
     markerList = deleteMarkers(markerList);
