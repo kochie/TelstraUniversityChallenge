@@ -75,7 +75,7 @@ function setClickEvent(map, markerList, heatmap){
 
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(teamSelect);
     teamSelect.addEventListener('change', function(){
-        [markerList, heatmap] = uploadMarkers([], heatmap, teamSelect.value);
+        [_, heatmap] = uploadMarkers([], heatmap, teamSelect.value);
     });
 
 }
