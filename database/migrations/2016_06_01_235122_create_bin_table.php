@@ -21,6 +21,11 @@ class CreateBinTable extends Migration
             $table->timestamps();
             $table->string('data')->nullable();
             $table->integer('team')->nullable();
+            $table->double('powerLevel')->nullable();
+            $table->double('pirValue')->nullable();
+            $table->double('colourValue')->nullable();
+            $table->double('binCapacity')->nullable();
+            $table->double('solarValue')->nullable();
         });
     }
 

@@ -12,7 +12,8 @@ class BinsController extends Controller
 {
     public function index()
     {
-        return bin::all();
+        $bins = bin::all();
+        return view('bins.index')->with('bins', $bins);
     }
 
     public function teamSelect($id)

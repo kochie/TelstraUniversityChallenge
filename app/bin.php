@@ -12,6 +12,11 @@ class bin extends Model
         'bin_id',
         'time',
         'data',
-        'team'
+        'team',
+        'powerLevel',
+        'pirValue',
+        'colourValue',
+        'binCapacity',
+        'solarValue'
     ];
 }
